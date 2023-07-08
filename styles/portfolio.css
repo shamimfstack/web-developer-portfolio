@@ -133,12 +133,17 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+main section {
+    margin: 130px 0;
+    /* padding: 130px; */
+}
 /* about section designs */
 .about {
-    padding: 130px;
+    padding: 130px 0;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 0;
+    
 }
 
 .about-info-container {
@@ -159,8 +164,8 @@ main {
 /* what i do section design starts here */
 
 .what-i-do-section {
-    /* background: #ddd; */
-    padding: 130px;
+    background: #ddd;
+    padding: 130px 0;
 }
 
 #what-i-do-description {
@@ -170,14 +175,71 @@ main {
 .skill-container {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .skill {
-    padding: 10px;
+    padding: 30px;
     box-shadow: 5px 5px 8px #ddd;
+    border-radius: 5px;
+    
 }
 
+.skill-description {
+    color: #757575;
+}
 /* what i do section design end here */
+/* what i do section design starts here */
+.resume-section {
+    /* background-color: #ddd; */
+    padding: 130px 0;
+}
+
+.resume-section .section-title {
+    margin-bottom: 50px;
+}
+/* what i do section design ends here */
+/* what i do resume design starts here */
+.resume-container {
+    display: flex;
+}
+
+.resume-column {
+    padding-right: 20px;
+}
+
+.resume-content {
+    /* margin-top: 20px; */
+    width: 511px;
+
+}
+
+.horizontal-line {
+    margin: 20px 0;
+}
+
+.resume-column-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.resume-duration {
+    color: #757575;
+    margin: 10px 0;
+}
+
+.resume-content-description {
+    color: #757575;
+    font-size: 12px;
+}
+
+.download-cv {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/* what i do resume design ends here */
 
 
 
