@@ -84,9 +84,9 @@ nav ul li a {
 /* header related style */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -115,6 +115,12 @@ nav ul li a {
     margin-right: -5px;
 }
 
+.banner-icon {
+    width: 20px;
+    margin-right: 5px;
+    color: #fff;
+}
+
 .banner-img-container {
     
 }
@@ -135,7 +141,7 @@ main {
 }
 
 main section {
-    margin: 130px 0;
+    margin: 120px 0;
     /* padding: 130px; */
 }
 /* about section designs */
