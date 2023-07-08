@@ -241,6 +241,56 @@ main section {
 
 /* what i do resume design ends here */
 
+/* what i do footer design starts here */
+footer {
+    
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 0;
+}
+
+.footer-container {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    width: 50%;
+    padding: 0 30px;
+}
+
+.social-links {
+    margin-right: 25px;
+    font-size: 24px;
+}
+
+
+
+.contact-title {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    color: #757575;
+    margin: 20px 0;
+}
+
+.contact-form {
+    /* padding: 0 30px; */
+}
+
+.contact-form input[type="text"], input[type="email"], textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 3px;
+    border: none;
+}
+/* what i do footer design ends here */
+
 
 
 
