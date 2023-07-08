@@ -1,7 +1,17 @@
 /* common shared styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;   
+}
+
+img {
+    /* max-width: 100%; */
+    vertical-align: middle;
 }
 
 .text-primary {
@@ -17,6 +27,25 @@ body {
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
+}
+
+section {
+    
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    /* margin-bottom: 20px; */
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
 }
 
 /* nav related styles */
@@ -55,24 +84,103 @@ nav ul li a {
 /* header related style */
 .header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 50px 30px 30px 150px;
+    padding: 30px 30px 0 120px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+
+.banner-content {
+    max-width: 500px;
 }
 
 .banner-content {}
 
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: -5px;
+}
+
 .banner-img-container {
-    background-image: url('images/header-bg.png');
+    
 }
 
 .banner-img-container img {
     width: 584px;
     height: 674px;
 }
+
+.btn-group {
+    margin: 15px 0;
+}
+
+/* main section designs */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section designs */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.info-title {
+    font-weight: normal;
+}
+
+.info-description {
+    font-weight: bold;
+}
+
+/* what i do section design starts here */
+
+.what-i-do-section {
+    /* background: #ddd; */
+    padding: 130px;
+}
+
+#what-i-do-description {
+    padding: 0 150px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    padding: 10px;
+    box-shadow: 5px 5px 8px #ddd;
+}
+
+/* what i do section design end here */
+
+
+
 
 
 
